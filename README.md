@@ -5,8 +5,6 @@ Apologies for the confusion. Here's a sample README file for the GitHub User Sea
 
 GitHub User Search is a web application that allows users to search for GitHub users and view their repositories, followers, and public contributions. It integrates with the [GitHub API](https://docs.github.com/en/rest) to fetch user data and renders it using React.
 
-![GitHub User Search Screenshot](./screenshot.png)
-
 ## Features
 
 - Search for GitHub users by their username
