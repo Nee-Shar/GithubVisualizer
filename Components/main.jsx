@@ -5,10 +5,13 @@ import Cardg from "./cardg";
 import ResponsiveAppBar from "./navbar";
 import Box from "@mui/material/Box";
 import Row from "react-bootstrap/Row";
+
+import { useNavigate } from "react-router-dom";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import TextField from "@mui/material/TextField";
 function Main() {
+  const navigate = useNavigate();
   const isSmallScreen = useMediaQuery({ maxWidth: 576 });
   const [userName, setUsername] = useState("");
   const [url, setUrl] = useState([]);
@@ -24,7 +27,7 @@ function Main() {
   const [date, setDate] = useState([]);
   const handleSubmit = (e) => {
     e.preventDefault();
-
+    navigate("/search");
     fetch(`https://api.github.com/search/users?q=${userName}`)
       .then((response) => response.json())
       .then((data) => {
@@ -107,7 +110,7 @@ function Main() {
             required
             id="outlined-required"
             className="input"
-            defaultValue="Username Here"
+            placeholder="Enter Username here"
             onChange={(e) => setUsername(e.target.value)}
             style={{ border: "1px solid black" }}
           />
@@ -128,22 +131,22 @@ function Main() {
       )}
 
       {repos.length > 0 && (
-        <div>
+        <div style={{ marginTop: "5%", padding: "3%" }}>
           <div
             style={{
               textAlign: "center",
-              marginTop: "5%",
-              marginBottom: "3%",
+              // marginTop: "5%",
+              // marginBottom: "3%",
             }}
           >
             <h4 style={{ fontWeight: "bold" }}>Top Repositories:</h4>
           </div>
-          <Row style={{ maxWidth: "1200px" }}>
+          <Row style={{ padding: "3%" }}>
             {repos.map((repo) => (
-              <Col key={repo.id} sm={6} md={3}>
+              <Col key={repo.id} sm={6} md={3} lg={6}>
                 <Card
                   style={{
-                    marginBottom: "10px",
+                    marginBottom: "1%",
                     border: "2px solid",
                     borderColor:
                       "linear-gradient(90deg, rgba(61,51,226,1) 0%, rgba(144,26,222,1) 18%, rgba(121,9,96,1) 56%, rgba(0,212,255,1) 100%)",
