@@ -1,12 +1,14 @@
 body {
   /* background-color: rgb(10 25 41); */
-  background-color: #99dbf5;
+  /* background-color: #99dbf5;
+   */
 
+  background: linear-gradient(315deg, #dfaa72 0%, #95bee9 100%);
   font-family: Comic Sans MS;
   margin: 0;
   padding: 0;
 
-  height: 100vh;
+  height: 200vh;
   display: flex;
   justify-content: space-evenly;
   /* align-items: center;

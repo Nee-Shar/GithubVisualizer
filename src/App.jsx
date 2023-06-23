@@ -6,6 +6,7 @@ import Main from "../Components/main";
 import ResponsiveAppBar from "../Components/navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import BouncingImage from "../Components/bounce.jsx";
+
 function App() {
   const [count, setCount] = useState(0);
 
