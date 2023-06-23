@@ -75,7 +75,7 @@ function Cardg({
             display: "inline",
             fontWeight: "bold",
             maxWidth: "200px",
-            width: "auto",
+            width: "100px",
             height: "auto",
             maxHeight: "100%",
           }}
