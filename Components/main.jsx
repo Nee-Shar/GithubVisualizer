@@ -33,7 +33,7 @@ function Main() {
     fetch(`https://api.github.com/search/users?q=${userName}`)
       .then((response) => response.json())
       .then((data) => {
-        console.log(data.items[0]);
+        //console.log(data.items[0]);
         setUrl(data.items[0].html_url);
         setAvaUrl(data.items[0].avatar_url);
         const reposUrl = data.items[0].repos_url;
@@ -41,7 +41,7 @@ function Main() {
         fetch(`https://api.github.com/users/${userName}`)
           .then((response) => response.json())
           .then((data) => {
-            console.log(data);
+            //   console.log(data);
 
             setFollowersCount(data.followers);
             setFollowingCount(data.following);
@@ -50,7 +50,7 @@ function Main() {
             setCompany(data.company);
             setName(data.name);
 
-            console.log(url);
+            // console.log(url);
             const originalDate = data.created_at;
             const parts = originalDate.split("T")[0].split("-");
             const formattedDate = `${parts[2]}-${parts[1]}-${parts[0]}`;
@@ -63,7 +63,7 @@ function Main() {
         fetch(reposUrl)
           .then((response) => response.json())
           .then((reposData) => {
-            console.log(reposData);
+            // console.log(reposData);
             const filteredRepos = reposData.filter((repo) => !repo.fork);
             filteredRepos.sort(
               (a, b) => b.stargazers_count - a.stargazers_count
@@ -83,7 +83,7 @@ function Main() {
           (event) => event.type === "PushEvent"
         );
         const commitCount = commitEvents.length;
-        console.log(`Total commits: ${commitCount}`);
+        //  console.log(`Total commits: ${commitCount}`);
 
         // Process the commit events or display the commit graph as needed
       })
