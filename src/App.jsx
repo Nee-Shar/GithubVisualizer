@@ -14,7 +14,7 @@ function App() {
     <>
       {/* <BouncingImage /> */}
       <Main />
-      {/* <BouncingImage /> */}
+      <BouncingImage />
     </>
   );
 }
