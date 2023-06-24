@@ -11,6 +11,7 @@ import { useNavigate } from "react-router-dom";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import TextField from "@mui/material/TextField";
+
 function Main() {
   const navigate = useNavigate();
   const isSmallScreen = useMediaQuery({ maxWidth: 576 });
