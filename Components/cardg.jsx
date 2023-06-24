@@ -62,29 +62,29 @@ function Cardg({
       <div
         style={{
           marginTop: "0%",
+          marginLeft: "4%",
           display: "flex",
           justifyContent: "center",
         }}
       >
         <h3
           style={{
-            background:
-              "linear-gradient(90deg, rgba(2,0,36,1) 6%, rgba(121,9,96,1) 56%, rgba(0,212,255,1) 100%)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
+            color: "black",
+            // WebkitBackgroundClip: "text",
+            // WebkitTextFillColor: "transparent",
             display: "inline",
             fontWeight: "bold",
-            maxWidth: "200px",
-            width: "auto",
+            maxWidth: "300px",
+            width: "65%",
             height: "auto",
             maxHeight: "100%",
+            fontFamily: "'Playfair Display', serif",
           }}
         >
           {name}
         </h3>
       </div>
 
-      <br />
       <div
         style={{
           marginTop: "0%",
@@ -164,7 +164,7 @@ function Cardg({
                   width="36"
                   height="36"
                   fill="currentColor"
-                  class="bi bi-card-list"
+                  className="bi bi-card-list"
                   viewBox="0 0 16 16"
                 >
                   <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
@@ -195,7 +195,7 @@ function Cardg({
                   width="36"
                   height="36"
                   fill="currentColor"
-                  class="bi bi-people-fill"
+                  className="bi bi-people-fill"
                   viewBox="0 0 16 16"
                 >
                   <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
@@ -225,7 +225,7 @@ function Cardg({
                   width="36"
                   height="36"
                   fill="currentColor"
-                  class="bi bi-person-fill-check"
+                  className="bi bi-person-fill-check"
                   viewBox="0 0 16 16"
                 >
                   <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
