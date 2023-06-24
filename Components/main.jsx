@@ -38,7 +38,7 @@ function Main() {
 
     e.preventDefault();
     navigate("/search");
-    fetch(`https://api.github.com/search/users?q=${userName}`, requestOptions)
+    fetch(`https://api.github.com/search/users?q=${userName}`)
       .then((response) => response.json())
       .then((data) => {
         //console.log(data.items[0]);
@@ -47,7 +47,7 @@ function Main() {
         setAvaUrl(data.items[0].avatar_url);
         const reposUrl = data.items[0].repos_url;
 
-        fetch(`https://api.github.com/users/${userName}`, requestOptions)
+        fetch(`https://api.github.com/users/${userName}`)
           .then((response) => response.json())
           .then((data) => {
             //   console.log(data);
@@ -85,7 +85,7 @@ function Main() {
             console.error(error);
           });
       });
-    fetch(`https://api.github.com/users/${userName}/events`, requestOptions)
+    fetch(`https://api.github.com/users/${userName}/events`)
       .then((response) => response.json())
       .then((eventsData) => {
         const commitEvents = eventsData.filter(
