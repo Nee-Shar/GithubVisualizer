@@ -26,7 +26,7 @@ function Main() {
   const [company, setCompany] = useState([]);
   const [name, setName] = useState([]);
   const [date, setDate] = useState([]);
-  const xx = "0";
+  const xx = import.meta.env.VITE_Github_Token;
   const isMedScreen = useMediaQuery({ maxWidth: 900 });
   const handleSubmit = (e) => {
     const requestOptions = {
@@ -165,9 +165,10 @@ function Main() {
               <Col key={repo.id} sm={6} md={3} lg={6}>
                 <motion.div
                   whileHover={{
-                    scale: 1.03,
-                    fontSize: "20px",
-                    backgroundColor: "#FFDEE9",
+                    scale: 1.02,
+                    y: -2,
+                    boxShadow: "10px -2px 5px 0px rgba(223, 166, 230, 1)",
+                    fontSize: 15,
                   }}
                 >
                   <Card
