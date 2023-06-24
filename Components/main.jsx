@@ -27,16 +27,10 @@ function Main() {
   const [company, setCompany] = useState([]);
   const [name, setName] = useState([]);
   const [date, setDate] = useState([]);
-  const xx = import.meta.env.VITE_Github_Token;
   const isMedScreen = useMediaQuery({ maxWidth: 900 });
   const handleSubmit = (e) => {
-    const requestOptions = {
-      headers: {
-        Authorization: `Bearer ${xx}`,
-      },
-    };
-
     e.preventDefault();
+
     navigate("/search");
     fetch(`https://api.github.com/search/users?q=${userName}`)
       .then((response) => response.json())
