@@ -1,4 +1,4 @@
-
+![Screenshot 2023-06-24 130401](https://github.com/Nee-Shar/GithubVisualizer/assets/99169026/0354081f-936c-443d-b638-d270bc43cdce)
 # GitHub Profile Visualizer
 
 GitHub User Search is a web application that allows users to search for GitHub users and view their repositories, followers, and public contributions. It integrates with the [GitHub API](https://docs.github.com/en/rest) to fetch user data and renders it using React.
@@ -55,11 +55,12 @@ Contributions are welcome! If you find any bugs or want to add new features, ple
  
 This project is licensed under the [MIT License](LICENSE).  
 
-![Screenshot (174)](https://github.com/Nee-Shar/GithubVisualizer/assets/99169026/e8b17b5a-1d66-4fed-a00e-e0af418ed8b2)
-![Screenshot (173)](https://github.com/Nee-Shar/GithubVisualizer/assets/99169026/6df32fc9-0045-401d-a016-e4cf4be3e8fa)
+![Screenshot 2023-06-24 130401](https://github.com/Nee-Shar/GithubVisualizer/assets/99169026/57b3f88c-6bc6-4e1b-997c-42b9e07ccdda)
 
-![Screenshot (175)](https://github.com/Nee-Shar/GithubVisualizer/assets/99169026/e1bc5538-02d7-469c-aba8-26803fa06444)
 
-![Screenshot (176)](https://github.com/Nee-Shar/GithubVisualizer/assets/99169026/b8d7c1a6-f959-46e4-b807-4b5cdcfb43eb)
+![Screenshot 2023-06-24 130442](https://github.com/Nee-Shar/GithubVisualizer/assets/99169026/ad5bc228-365f-4c93-953e-c8f966a5bdda)
+
+
+
 
 
