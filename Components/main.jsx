@@ -157,7 +157,7 @@ function Main() {
 
           <Row style={{ padding: "2%" }}>
             {repos.map((repo) => (
-              <Col key={repo.id} sm={6} md={3} lg={6}>
+              <Col key={repo.id} sm={6} md={3} lg={4}>
                 <motion.div
                   whileHover={{
                     scale: 1.02,
