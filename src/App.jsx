@@ -10,7 +10,7 @@ import Lander from "../Components/lander";
 import Lottie from "react-lottie";
 import animationData from "../Lotties/github";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Load from "../Components/loading";
+
 function App() {
   const [count, setCount] = useState(0);
   const defaultOptions = {
