@@ -125,7 +125,7 @@ function Lander() {
           // width: "100%",
           width: "auto",
           height: "auto",
-          maxWidth: 560,
+          maxWidth: 561,
           borderRadius: "10%",
 
           background: "linear-gradient(135deg, #e6c0f2 0%, #ecfde7 100%)",
