@@ -163,7 +163,6 @@ function Main() {
                     scale: 1.02,
                     y: -2,
                     boxShadow: "10px -2px 5px 0px rgba(223, 166, 230, 1)",
-                    fontSize: 15,
                   }}
                 >
                   <Card

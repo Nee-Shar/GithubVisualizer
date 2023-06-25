@@ -81,7 +81,13 @@ function Lander() {
       name: "Matt Zabriskie",
       username: "@mzabriskie",
       imgSrc: "https://avatars.githubusercontent.com/u/199035?v=4",
-      bio: " Matt is an engineer; he solves issues and architects solutions rather than just programming. He developed an entire AJAX framework",
+      bio: "Matt is an engineer; he solves issues and architects solutions rather than just programming. He developed an entire AJAX framework",
+    },
+    {
+      name: "Jason Mayes",
+      username: "@jasonmayes",
+      imgSrc: "https://avatars.githubusercontent.com/u/4972997?v=4",
+      bio: "Lead Developer Advocate for Web ML / TensorFlow.js @google. >15 years experience developing innovative web solutions using new tech.",
     },
   ];
 
