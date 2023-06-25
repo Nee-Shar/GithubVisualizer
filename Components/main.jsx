@@ -170,8 +170,7 @@ function Main() {
                     style={{
                       marginBottom: "1%",
                       border: "2px solid",
-                      height: "30vh",
-                      width: "auto",
+
                       borderColor:
                         "linear-gradient(90deg, rgba(61,51,226,1) 0%, rgba(144,26,222,1) 18%, rgba(121,9,96,1) 56%, rgba(0,212,255,1) 100%)",
                     }}
