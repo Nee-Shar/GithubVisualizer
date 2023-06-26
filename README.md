@@ -9,7 +9,6 @@ Site Live At https://seegithubprofile.netlify.app/
 - Display user profile information including name, bio, and avatar
 - View user's repositories with details like name, description, and number of stars
 - Show a list of user's followers and their profile information
-- View user's public contributions, such as commits and pull requests
 
 ## Installation
 
