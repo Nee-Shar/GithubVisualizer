@@ -2,8 +2,10 @@
 # GitHub Profile Visualizer
 
 GitHub User Search is a web application that allows users to search for GitHub users and view their repositories, followers, and public contributions. It integrates with the [GitHub API](https://docs.github.com/en/rest) to fetch user data and renders it using React.
-Site Live At https://seegithubprofile.netlify.app/
+Site Live At:
+https://seegithubprofile.netlify.app/
 
+Status of site:
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e0d25040-a8e6-4ab4-830d-af7891d56de3/deploy-status)](https://app.netlify.com/sites/seegithubprofile/deploys)
 
 ## Features
